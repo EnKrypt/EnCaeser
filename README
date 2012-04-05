@@ -1,0 +1,31 @@
+EnCaeser is a Command Line program in Java.
+It allows (helps mostly) the user to encode or decode from the two old popular methods of encrypting established by Julius Caeser
+
+
+Caeser Cipher ( Caeser's Cipher, Shift Cipher, Caeser's Code or Caeser Shift ) :
+
+This is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions DOWN the alphabet. 
+For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it in his private correspondence. 
+The number of digits shifted in encrypting is known as the cipher's SHIFT.
+Decrypting is done by going UP the alphabet by as many digits used for shifting while encrypting.
+Example:
+Plaintext: the quick brown fox jumps over the lazy dog
+SHIFT: 3
+Cipher: WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ
+
+Caeser's Square :
+
+This is another largely implemented encryption technique ( there is not much information provided for this method online ). Here the plaintext is arranged in the form of a square grid. Because of this, there is a major drawback that the number of letters in the plaintext HAS to be a perfect square to implement it on a grid perfectly. The plaintext is first laid out in a grid, progressing from top to bottom and then continuing again on the next column. From this grid, the cipher is obtained by taking letters from left to right from the rows top to bottom. 
+Example:
+Plaintext: we are watching you
+Grid:
+
+	wecg
+	ewhy
+	aaio
+	rtnu
+
+Cipher WECGEWHYAAIORTNU
+
+Author: EnKrypt. Date: 05/04/2012
+ 
